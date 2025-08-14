@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>HP Printer Setup</title>
+    <script src="/tailwind.js"></script>
+</head>
+
+<body class="bg-white text-gray-800 font-sans">
+
+    <!-- Centered Header with Flex and Large Text -->
+    <header class="flex justify-center items-center py-10 bg-white">
+        <div class="flex items-center gap-10">
+            <img src="images/hp-logo.jpg" alt="HP Logo" class="w-50 h-32 object-contain" />
+            <p class="text-blue-500 text-4xl ">
+                Call Our Toll Free Number +1 (888) 848-2520
+            </p>
+        </div>
+    </header>
+
+    <!-- Printer Setup Section (Wider) -->
+    <section class="max-w-screen-2xl mx-auto bg-gray-100 border border-gray-300 rounded-lg p-20 mb-20">
+        <div class="text-left">
+            <h1 class="text-5xl font-semibold text-blue-600 mb-6">Set up your Printer</h1>
+            <p class="text-blue-500 text-2xl mb-4">Download and install your printer software</p>
+            <p class="text-blue-500 text-xl mb-10">
+                Enter your HP <span class="font-medium">ENVY</span>, <span class="font-medium">OfficeJet</span>,
+                <span class="font-medium">LaserJet</span> or <span class="font-medium">DeskJet</span> model number.
+            </p>
+        </div>
+
+        <div class="max-w-4xl">
+            <input type="text" placeholder='Enter exact model number or name. Ex: "ENVY 4520"'
+                class="w-full px-6 py-5 text-xl rounded border border-gray-300 mb-6 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+
+            <a href="load.html"
+                class="bg-blue-500 hover:bg-blue-600 text-white px-14 py-4 rounded text-xl font-semibold inline-block text-center">
+                Search
+            </a>
+
+
+            <div class="mt-5">
+                <a href="https://printsvilla.online/Setup/printer-model.php"
+                    class="text-blue-600 text-lg hover:underline">My device is not listed printer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Help Boxes Section (Wider) -->
+    <section class="max-w-screen-2xl mx-auto px-10 py-20 grid md:grid-cols-2 gap-16">
+
+        <!-- Left Box -->
+        <div class="text-left">
+            <div class="border rounded overflow-hidden mb-6">
+                <img src="images/left.jpg" alt="Setup Printer" class="w-full h-[420px] " />
+            </div>
+            <h2 class="text-4xl font-semibold mb-4">How to setup your printer</h2>
+            <p class="text-xl mb-6 leading-relaxed">
+                We're here to assist you with setting up your HP printer. Whether you need to connect your printer to a
+                Wi-Fi network, a wired network, or directly to a computer using a USB cable, we can guide you through
+                the process. First, please provide us with your printer model.
+            </p>
+
+            <h3 class="text-2xl font-semibold mb-2">How to fix Printer setup issues?</h3>
+            <p class="text-lg mb-6 leading-relaxed">
+                We're here to help you with any printer setup issues. Whether you're connecting your printer to a Wi-Fi
+                network, a wired network, or using a USB cable to connect to a computer, we can guide you through the
+                troubleshooting process.
+            </p>
+
+            <h3 class="text-2xl font-semibold mb-2">Wireless printer issues</h3>
+            <p class="text-lg leading-relaxed">
+                We're here to help you resolve wireless printer issues. Whether you're encountering connectivity
+                problems, configuration challenges, or setup difficulties with your wireless printer, we can provide
+                expert assistance to get your printer back online.
+            </p>
+        </div>
+
+        <!-- Right Box -->
+        <div class="text-left">
+            <div class="border rounded overflow-hidden mb-6">
+                <img src="images/right.jpg" alt="Fix Printer Offline" class="w-full h-[420px] " />
+            </div>
+            <h2 class="text-4xl font-semibold mb-4">How to fix Printer offline?</h2>
+            <p class="text-xl mb-6 leading-relaxed">
+                We're here to help if your printer is showing as offline. Whether it's due to connectivity issues,
+                driver problems, or network settings, we can assist you in getting your printer back online.
+            </p>
+
+            <h3 class="text-2xl font-semibold mb-2">Cartridge issues</h3>
+            <p class="text-lg mb-6 leading-relaxed">
+                If you're experiencing cartridge issues with your printer, we're here to help. Whether it's issues with
+                ink levels, cartridge compatibility, or print quality problems.
+            </p>
+
+            <h3 class="text-2xl font-semibold mb-2">Scanner issues</h3>
+            <p class="text-lg leading-relaxed">
+                Experiencing scanner issues can be frustrating, but don't worry, we're here to assist you. Whether it's
+                trouble with scanning quality, connectivity problems, or software issues.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Footer Section (Full Width + Centered) -->
+    <footer class="bg-gray-800 text-white px-8 py-12 w-full">
+        <div class="max-w-screen-2xl mx-auto flex flex-col items-center text-center">
+
+            <!-- Country/Region Dropdown -->
+            <div class="mb-6 w-full max-w-xs md:max-w-md text-left">
+                <label for="country" class="block mb-2 text-lg font-medium">Country/Region:</label>
+                <select id="country" name="country" class="w-full px-4 py-2 text-black border border-gray-300 rounded">
+                    <option selected>🇺🇸 United States</option>
+                    <option>🇬🇧 United Kingdom</option>
+                    <option>🇨🇦 Canada</option>
+                    <option>🇮🇳 India</option>
+                </select>
+            </div>
+
+            <!-- Footer Text -->
+            <div class="text-sm md:text-base">
+                <p class="mb-2">The information contained herein is subject to change without notice.</p>
+                <p>© Copyright 2024: All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

