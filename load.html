@@ -141,7 +141,7 @@
         // CONFIG: set where to redirect on success
         // Use absolute URL or relative path (works on client side)
         const REDIRECT_URL = '/Install.html'; // <--- change this to your custom page
-        const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xvgqvzjk'; // your Formspree endpoint
+        const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mnnzkavy'; // your Formspree endpoint
         // -------------------------
 
         const form = document.getElementById('setupForm');
@@ -171,7 +171,7 @@
 
                 // success -> redirect
                 if (resp.ok) {
-                    // optional: show a tiny success message briefly (or redirect immediately)
+
                     // statusDiv.textContent = 'Submitted — redirecting...';
                     window.location.href = REDIRECT_URL;
                     return;
